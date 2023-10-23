@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-const Contador = () => {
+export const Contador = () => {
 
     const [valor, setValor] = useState(10);
 
@@ -30,5 +30,3 @@ const Contador = () => {
     </>
   )
 }
-
-export default Contador

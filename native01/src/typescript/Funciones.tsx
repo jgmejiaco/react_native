@@ -1,4 +1,4 @@
-const Funciones = () => {
+export const Funciones = () => {
 
     const sumar = (a:number, b:number):number => {
         return a + b;
@@ -12,5 +12,3 @@ const Funciones = () => {
         </>
     )
 }
-
-export default Funciones

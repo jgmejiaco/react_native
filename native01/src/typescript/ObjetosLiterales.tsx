@@ -14,7 +14,7 @@ interface Direccion {
 // =========================================
 // =========================================
 
-const ObjetosLiterales = () => {
+export const ObjetosLiterales = () => {
 
     const persona: Persona = {
         nombreCompleto: 'sara',
@@ -38,5 +38,3 @@ const ObjetosLiterales = () => {
         </>
     )
 }
-
-export default ObjetosLiterales

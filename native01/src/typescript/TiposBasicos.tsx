@@ -1,4 +1,4 @@
-const TiposBasicos = () => {
+export const TiposBasicos = () => {
   const nombre: string = 'Fernando';
   const edad: number = 49;
   const estadoActivo: boolean = true;
@@ -20,5 +20,3 @@ const TiposBasicos = () => {
     </>
   )
 }
-
-export default TiposBasicos
