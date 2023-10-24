@@ -29,8 +29,6 @@ export const ObjetosLiterales = () => {
         <>
             <h2>ObjetosLiterales</h2>
 
-            {/* {persona} */} {/* saca un error pasando la variable pura */}
-
             <pre>
                 {JSON.stringify(persona, null, 2 )}
             </pre>
