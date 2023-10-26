@@ -1,15 +1,14 @@
 import React from 'react'
-import { View, Text } from 'react-native';
+// import { HomeScreen } from './src/screens/HomeScreen';
+import { ContadorScreen } from './src/screens/ContadorScreen';
 
 export const App = () => {
   return (
-    <View style={{
-      flex: 1,
-      // backgroundColor: 'red',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}>
-      <Text style={{fontSize:55}}>Oli</Text>
-    </View>
+    <>
+      {/* <HomeScreen/> */}
+
+      <ContadorScreen/>
+    </>
   )
 }
+ 
