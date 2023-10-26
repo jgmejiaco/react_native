@@ -41,13 +41,13 @@ const styles = StyleSheet.create({
   },
   fabLocationBL: {
     position: 'absolute',
-    bottom: 0,
-    left: 0,
+    bottom: 30,
+    left: 30,
   },
   fabLocationBR: {
     position: 'absolute',
-    bottom: 0,
-    right: 0,
+    bottom: 30,
+    right: 30,
   },
   fab: {
     backgroundColor:'#5856d6',
