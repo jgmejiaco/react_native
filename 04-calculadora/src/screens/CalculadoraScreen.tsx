@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const CalculadoraScreen = () => {
   return (
     <View>
-      <Text>Calculadora Screen</Text>
+      <Text>Pantalla de la Calculadora</Text>
     </View>
   )
 }
