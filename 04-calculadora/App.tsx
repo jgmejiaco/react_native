@@ -1,12 +1,10 @@
-import React from 'react';
-import {Text, View} from 'react-native';
+import React from 'react'
+import CalculadoraScreen from './src/screens/CalculadoraScreen'
 
 const App = () => {
   return (
-    <View>
-      <Text>Calculadora</Text>
-    </View>
-  );
-};
+    <CalculadoraScreen />
+  )
+}
 
-export default App;
+export default App
